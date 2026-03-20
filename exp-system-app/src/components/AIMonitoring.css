@@ -1,0 +1,27 @@
+.ai-monitoring {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+.ai-monitoring h2 {
+  margin-bottom: 15px;
+}
+
+.ai-monitoring table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ai-monitoring th, .ai-monitoring td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.ai-monitoring tr:hover {
+  background-color: #f5f5f5;
+}
+
