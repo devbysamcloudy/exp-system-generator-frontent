@@ -3,6 +3,7 @@ import React from "react";
 function SideBar({ onSelectSection, activeSection, userdata, isOpen, onClose }) {
   const menuItems = [
     { id: "dashboard", label: "Dashboard", icon: "⊞" },
+    { id: "about", label: "About", icon: "ℹ️" },
     { id: "xp", label: "XP Progress", icon: "⭐" },
     { id: "quests", label: "Daily Quests", icon: "📋" },
     { id: "skillTracks", label: "Skill Tracks", icon: "🎯" },

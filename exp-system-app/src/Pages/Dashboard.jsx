@@ -6,6 +6,7 @@ import "./Dashboard.css";
 import ProgressBar from "../components/ProgressBar";
 import Reports from "../components/Reports";
 import AuditLogs from "../components/AuditLogs";
+import AppDescription from "../components/AppDescription";
 import {
   getLevel,
   getProgressPercentage,
@@ -221,6 +222,8 @@ function Dashboard() {
             </div>
           </div>
         );
+      case "about":
+        return <AppDescription darkMode={darkMode} />;
       case "dashboard":
       default:
         return (

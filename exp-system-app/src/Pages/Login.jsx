@@ -3,7 +3,21 @@ import { useNavigate } from "react-router-dom";
 import InputField from "../components/InputField";
 import Button from "../components/Button";
 import GoogleLoginButton from "../components/GoogleLogin";
+import "./Login.css";
 //import "../styles/auth.css";
+
+// Brief explanation of the app's purpose
+function AppPurpose() {
+  return (
+    <div className="app-purpose">
+      <h2>Welcome to Exp-System</h2>
+      <p>
+        Level up your coding skills through daily quests, track your progress with XP,
+        and monitor your growth across multiple programming languages.
+      </p>
+    </div>
+  );
+}
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -38,6 +52,7 @@ function Login() {
 
   return (
     <div className="auth-form">
+      <AppPurpose />
       <h1>Login</h1>
       {error && <p style={{ color: "red", textAlign: "center" }}>{error}</p>}
 
